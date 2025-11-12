@@ -80,27 +80,19 @@ Compatible with both iOS and Android builds.
 Easy deployment via Expo Go for testing.
 
 
-#⚖️ Known Issues / Trade-offs
-
-Expo SDK Size
+# ⚖️ Known Issues / Trade-offs
 
 The final app bundle is slightly larger due to built-in Expo modules.
 
 This is a trade-off for convenience, faster setup, and integrated features like OTA updates.
 
-Native Modules
-
 Some third-party libraries that rely on native code may require ejecting from the Expo managed workflow.
 
 Ejecting allows deeper native access but increases project complexity.
 
-TypeScript Strict Mode
-
 Enabling strict mode can cause additional type warnings during development.
 
 However, it ensures cleaner, safer, and more maintainable code in the long run.
-
-Tailwind on React Native (NativeWind)
 
 There may be a small delay in style updates during hot reload.
 

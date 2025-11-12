@@ -13,7 +13,7 @@ Lucide React	Lightweight, customizable icon library for consistent UI icons.
 ESLint	Enforces code quality and style guidelines.
 PostCSS + Autoprefixer	Ensures CSS compatibility across browsers.
 📦 Libraries Used
-**1. React**
+1. React
 
 Used for building modular UI components like Navbar, Hero Section, FAQ, etc.
 Each section is encapsulated into its own component for reusability and clarity.
